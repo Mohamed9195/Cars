@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (5.5.0)
+  - ImageSlideshow/Core (1.9.2)
+  - ImageSlideshow/SDWebImage (1.9.2):
+    - ImageSlideshow/Core
+    - SDWebImage (>= 3.7)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.3)
+  - SDWebImage (5.12.3):
+    - SDWebImage/Core (= 5.12.3)
+  - SDWebImage/Core (5.12.3)
+  - SkeletonView (1.29.2)
+
+DEPENDENCIES:
+  - ImageSlideshow/SDWebImage
+  - Moya/RxSwift (~> 14.0)
+  - RxCocoa
+  - RxSwift
+  - SDWebImage
+  - SkeletonView
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ImageSlideshow
+    - Moya
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SkeletonView
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  SDWebImage: 53179a2dba77246efa8a9b85f5c5b21f8f43e38f
+  SkeletonView: 915a80ecc2b6421ab7ac0f0212321c0cc1406472
+
+PODFILE CHECKSUM: a1d3cb139fe4a68ef1a52c3212e15fd397c701c9
+
+COCOAPODS: 1.11.2
