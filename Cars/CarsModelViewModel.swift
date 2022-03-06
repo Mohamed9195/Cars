@@ -50,7 +50,7 @@ class CarModelViewModel {
         
         CarsEndPoints.shared
             .provider.rx
-            .request(.getCarModel(carModel: model, pageNo: 1, pageSize: 10))
+            .request(.getCarModel(carModel: model, pageNo: currentPage, pageSize: 10))
             .filterSuccessfulStatusCodes()
             .timeout(.seconds(120), scheduler: MainScheduler.instance)
             .retry(2)
