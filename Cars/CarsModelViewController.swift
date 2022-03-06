@@ -44,9 +44,9 @@ class CarsModelViewController: UIViewController {
                     cell.alpha = 1
                     cell.layer.transform = CATransform3DIdentity
                 }, completion: nil)
-                if (self.viewModel.countCell - 1) == indexPath.row {
-                    self.viewModel.requestNextCarsModelsData(model: self.model)
-                }
+//                if (self.viewModel.countCell - 1) == indexPath.row {
+//                    self.viewModel.requestNextCarsModelsData(model: self.model)
+//                }
             })).disposed(by: disposeBag)
         
         carModelTableView.rx.modelSelected(CarModelInfo.self).subscribe { [weak self]  car in
